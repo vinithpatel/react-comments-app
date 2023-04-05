@@ -1,0 +1,94 @@
+.bg-container {
+  min-height: 100vh;
+  font-family: 'Roboto';
+  padding: 40px;
+}
+.main-heading {
+  font-size: 45px;
+}
+.input-comment-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .input-comment-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+@media (min-width: 768px) {
+  .input-container {
+    order: -1;
+  }
+}
+.topic {
+  color: #1e293b;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.input-name {
+  width: 100%;
+  height: 30px;
+  padding: 8px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+.input-comment {
+  width: 100%;
+  height: 150px;
+  margin-top: 10px;
+  font-size: 16px;
+  padding: 8px;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+.add-comment-button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #0284c7;
+  padding: 10px 20px 10px 20px;
+  border-width: 0px;
+  border-radius: 5px;
+  color: #cbd2d9;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+}
+.comments-image-container {
+}
+.comments-image {
+  width: 100%;
+}
+.harizental-rule {
+  border-color: #cbd2d9;
+  height: 2px;
+}
+.comments-heading {
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.comments-count {
+  background-color: #0284c7;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  color: #cbd2d9;
+}
+.comments-container {
+  list-style-type: none;
+  padding: 0px;
+}
+.comments-count-card {
+  display: flex;
+  align-items: center;
+}
